@@ -1,14 +1,14 @@
 import axios from 'axios';
 import uuid from 'uuid';
-import * as APIConfig from './constants/config';
-import { validateParams, formatResponse } from './utils';
-import * as APIEndpoints from './constants/apiSpecs';
+import * as APIConfig from './constants/config.js';
+import { validateParams, formatResponse } from './utils/index.js';
+import * as APIEndpoints from './constants/apiSpecs/index.js';
 
 class ApiClient {
   constructor(config) {
     if (!config.environment) throw new Error('Environment is required');
     if (!config.partnerApiKey) throw new Error('Partner API Key is required');
-
+    APIConfig.default.env
     //Check valid environment
     if (!APIConfig.env[config.environment.toLowerCase()])
       throw new Error('Invalid environment');

@@ -1,8 +1,8 @@
-import { ApiClient } from './src/ApiClient';
-import { PublicAPIService } from './src/services/PublicAPIService';
-import { UserService } from './src/services/UserService';
-import { OrderService } from './src/services/OrderService';
-import * as ApiSpecs from './src/constants/apiSpecs';
+import { ApiClient } from './src/ApiClient.js';
+import { PublicAPIService } from './src/services/PublicAPIService.js';
+import { UserService } from './src/services/UserService.js';
+import { OrderService } from './src/services/OrderService.js';
+import * as ApiSpecs from './src/constants/apiSpecs/index.js';
 class TransakAPI {
   constructor(config) {
     this.client = new ApiClient(config);

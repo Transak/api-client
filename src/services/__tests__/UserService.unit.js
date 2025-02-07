@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import {
   validatePatchUserData,
   validatePurposeOfUsageForm,
-} from '../UserService';
+} from '../UserService.js';
 
 describe('validatePatchUserData', function () {
   it('should pass when all required personal details fields are provided', function () {

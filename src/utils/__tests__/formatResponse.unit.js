@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { formatResponse } from '../index';
+import { formatResponse } from '../index.js';
 
 describe('formatResponse', function () {
   const apiSpec = {

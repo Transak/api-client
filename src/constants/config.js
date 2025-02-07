@@ -1,8 +1,8 @@
-config = {
+export default {
   env: {
     staging: 'https://api-stg.transak.com',
     production: 'https://api.transak.com',
   },
 };
 
-export default config;
+// export default config;

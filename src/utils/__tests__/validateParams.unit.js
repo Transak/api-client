@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { validateParams } from '../index';
+import { validateParams } from '../index.js';
 
 describe('validateParams', function () {
   const apiSpec = {
