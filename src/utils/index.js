@@ -238,5 +238,4 @@ function getNestedValue(obj, path) {
             obj
         );
 }
-
-module.exports = {validateParams, formatResponse};
+export {validateParams, formatResponse};

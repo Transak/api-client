@@ -340,4 +340,4 @@ const apiSpecs = {
 };
 
 //default export module nodejs
-module.exports = apiSpecs;
+export default apiSpecs;

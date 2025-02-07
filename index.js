@@ -29,4 +29,4 @@ class TransakAPI {
   }
 }
 
-module.exports = { TransakAPI,  ApiSpecs };
+export { TransakAPI,  ApiSpecs };

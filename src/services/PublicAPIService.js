@@ -29,4 +29,4 @@ class PublicAPIService {
   }
 }
 
-module.exports = { PublicAPIService };
+export { PublicAPIService };

@@ -176,7 +176,7 @@ function validatePatchUserData(data) {
   return true;
 }
 
-module.exports = {
+export {
   UserService,
   validatePatchUserData,
   validatePurposeOfUsageForm,

@@ -85,4 +85,4 @@ class OrderService {
   }
 }
 
-module.exports = { OrderService };
+export { OrderService };

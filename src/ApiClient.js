@@ -108,4 +108,4 @@ class ApiClient {
   }
 }
 
-module.exports = { ApiClient };
+export { ApiClient };

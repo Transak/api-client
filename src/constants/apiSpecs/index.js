@@ -6,4 +6,4 @@ import * as publicApiSpecs from './public_api_specs';
 const apiSpecs = { ...orderApiSpecs, ...userApiSpecs, ...publicApiSpecs };
 
 //default export module nodejs
-module.exports = apiSpecs;
+export default apiSpecs;
