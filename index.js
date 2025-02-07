@@ -2,7 +2,7 @@ const { ApiClient } = require('./src/ApiClient');
 const { PublicAPIService } = require('./src/services/PublicAPIService');
 const { UserService } = require('./src/services/UserService');
 const { OrderService } = require('./src/services/OrderService');
-
+const ApiSpecs = require('./src/constants/apiSpecs')
 class TransakAPI {
   constructor(config) {
     this.client = new ApiClient(config);
@@ -29,4 +29,4 @@ class TransakAPI {
   }
 }
 
-module.exports = { TransakAPI };
+module.exports = { TransakAPI,  ApiSpecs };
