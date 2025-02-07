@@ -1,8 +1,8 @@
-const { ApiClient } = require('./src/ApiClient');
-const { PublicAPIService } = require('./src/services/PublicAPIService');
-const { UserService } = require('./src/services/UserService');
-const { OrderService } = require('./src/services/OrderService');
-const ApiSpecs = require('./src/constants/apiSpecs')
+import { ApiClient } from './src/ApiClient';
+import { PublicAPIService } from './src/services/PublicAPIService';
+import { UserService } from './src/services/UserService';
+import { OrderService } from './src/services/OrderService';
+import * as ApiSpecs from './src/constants/apiSpecs';
 class TransakAPI {
   constructor(config) {
     this.client = new ApiClient(config);

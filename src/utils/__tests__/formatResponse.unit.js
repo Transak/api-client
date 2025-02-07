@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const { formatResponse } = require('../index');
+import { expect } from 'chai';
+import { formatResponse } from '../index';
 
 describe('formatResponse', function () {
   const apiSpec = {

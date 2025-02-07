@@ -1,6 +1,6 @@
-const orderApiSpecs = require('./order_api_specs');
-const userApiSpecs = require('./user_api_specs');
-const publicApiSpecs = require('./public_api_specs');
+import * as orderApiSpecs from './order_api_specs';
+import * as userApiSpecs from './user_api_specs';
+import * as publicApiSpecs from './public_api_specs';
 
 // Merge all API Specs
 const apiSpecs = { ...orderApiSpecs, ...userApiSpecs, ...publicApiSpecs };

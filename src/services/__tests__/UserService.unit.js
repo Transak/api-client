@@ -1,8 +1,8 @@
-const { expect } = require('chai');
-const {
+import { expect } from 'chai';
+import {
   validatePatchUserData,
   validatePurposeOfUsageForm,
-} = require('../UserService');
+} from '../UserService';
 
 describe('validatePatchUserData', function () {
   it('should pass when all required personal details fields are provided', function () {

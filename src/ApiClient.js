@@ -1,8 +1,8 @@
-const axios = require('axios');
-const uuid = require('uuid');
-const APIConfig = require('./constants/config');
-const { validateParams, formatResponse } = require('./utils');
-const APIEndpoints = require('./constants/apiSpecs');
+import axios from 'axios';
+import uuid from 'uuid';
+import * as APIConfig from './constants/config';
+import { validateParams, formatResponse } from './utils';
+import * as APIEndpoints from './constants/apiSpecs';
 
 class ApiClient {
   constructor(config) {

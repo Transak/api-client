@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const { validateParams, validateNestedFields } = require('../index');
+import { expect } from 'chai';
+import { validateParams } from '../index';
 
 describe('validateParams', function () {
   const apiSpec = {
