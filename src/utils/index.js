@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 function checkType(variable) {
     if (Array.isArray(variable)) {
         return 'array';
